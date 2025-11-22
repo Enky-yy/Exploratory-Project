@@ -1,0 +1,138 @@
+/* simple, clean styling for mine safety form */
+.msf-root {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f6fafc 0%, #eef6ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.msf-card {
+  width: 100%;
+  max-width: 980px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 8px 30px rgba(21, 38, 84, 0.08);
+}
+
+.msf-title {
+  text-align: center;
+  margin: 0 0 14px 0;
+  font-size: 22px;
+  color: #0b4a8b;
+}
+
+.msf-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.msf-btn {
+  background: #0b63d6;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.msf-btn.ghost {
+  background: transparent;
+  color: #0b63d6;
+  border: 1px solid rgba(11,99,214,0.12);
+}
+
+.msf-form {
+  display: block;
+}
+
+.msf-fieldset {
+  border: 1px solid #eef3fb;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.msf-fieldset legend {
+  padding: 0 8px;
+  font-weight: 700;
+  color: #234a6b;
+}
+
+.msf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.msf-grid label {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: #23384a;
+}
+
+.msf-grid input,
+.msf-grid select {
+  padding: 8px 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #dbe7f8;
+  outline: none;
+  font-size: 14px;
+}
+
+.msf-submit-row {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.msf-output {
+  margin-top: 16px;
+}
+
+.msf-result {
+  background: #fbfdff;
+  border: 1px solid #eef6ff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.msf-error {
+  background: #fff3f2;
+  color: #990000;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.msf-risk {
+  color: #b91c1c;
+  font-weight: 800;
+}
+
+.msf-stable {
+  color: #065f46;
+  font-weight: 800;
+}
+
+.msf-shap-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 6px;
+}
+
+.msf-shap-list li {
+  padding: 4px 0;
+  font-size: 13px;
+}
+
+.msf-pos { color: #b91c1c; }
+.msf-neg { color: #1d4ed8; }

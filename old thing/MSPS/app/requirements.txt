@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+scikit-learn
+pandas
+numpy
+joblib
+sqlalchemy
+psycopg2-binary
+shap
+matplotlib
+python-multipart
+python-dotenv
+redis         # if using Celery
+celery        # optional
